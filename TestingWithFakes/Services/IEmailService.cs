@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestingWithFakes.Services
 {
-    public interface IUserRepository
+    public interface IEmailService
     {
-        bool UserExists(string email);
-        int GetRegisteredCountToday();
+        void SendWelcomeEmail(string email);
     }
 }

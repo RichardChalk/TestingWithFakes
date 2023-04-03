@@ -11,7 +11,7 @@ namespace TestingWithFakes.Services
         Ok,
         AlreadyRegistered,
         WrongDomain,
-        TooManyRegistrationToday
+        TooManyRegistrationsToday
     }
     public interface IRegistrationService
     {
